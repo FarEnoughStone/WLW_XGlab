@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundMenuView">
+        <attr name="menuText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <attr name="Image" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ButtensView">
+
+    </declare-styleable>
+</resources>

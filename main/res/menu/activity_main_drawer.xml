@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_change"
+            android:icon="@drawable/icon_moon"
+            android:title="主题切换" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/icon_sign_out"
+            android:title="注销" />
+
+    </group>
+
+    <item android:title="关于我们">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="关于" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="联系我们" />
+        </menu>
+    </item>
+
+</menu>
